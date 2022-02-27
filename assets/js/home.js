@@ -80,3 +80,27 @@
 //                     .catch(function(error) {
 //                         console.log(error);
 //                     });
+
+$(".thumbnail").on("click", function (event) {
+    event.preventDefault();
+    var clicked = $(this);
+    var newSelection = clicked.data("big");
+    var $img = $(".primary").css("background-image", "url(" + newSelection + ")");
+    clicked.parent().find(".thumbnail").removeClass("selected");
+    clicked.addClass("selected");
+    $(".primary").empty().append($img.hide().fadeIn("slow"));
+  });
+
+  $(".quantity-minus").on("click", function() {
+    var currentQuantity = $(".quantity-input").val();
+    if(currentQuantity <= 1) {
+        $(".quantity-input").val(1);
+    }else {
+        $(".quantity-input").val(currentQuantity - 1);
+    }
+  });
+
+  $(".quantity-plus").on("click", function() {
+    var currentQuantity = $(".quantity-input").val();
+        $(".quantity-input").val(Number(currentQuantity) + 1);
+  });
