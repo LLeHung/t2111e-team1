@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd4e9c2c-98ac-4be0-85d6-085fc2c4887b" name="Changes" comment="sua code">
-      <change afterPath="$PROJECT_DIR$/gioithieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batdaishan.html" beforeDir="false" afterPath="$PROJECT_DIR$/batdaishan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="dd4e9c2c-98ac-4be0-85d6-085fc2c4887b" name="Changes" comment="up code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +47,7 @@
       <workItem from="1646474178428" duration="512000" />
       <workItem from="1646737497459" duration="18000" />
       <workItem from="1646813716480" duration="1886000" />
-      <workItem from="1646856351784" duration="12226000" />
+      <workItem from="1646856351784" duration="12545000" />
     </task>
     <task id="LOCAL-00001" summary="sua code">
       <created>1646474686663</created>
@@ -68,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646900089832</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="up code">
+      <created>1646906577236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646906577236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sua code" />
-    <option name="LAST_COMMIT_MESSAGE" value="sua code" />
+    <MESSAGE value="up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="up code" />
   </component>
 </project>
